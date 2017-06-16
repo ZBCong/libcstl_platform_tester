@@ -2,3 +2,4 @@ Debug
 *.user
 libcstl_platform_tester.VC.db
 *.suo
+*.opendb

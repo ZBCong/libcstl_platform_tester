@@ -14,6 +14,7 @@ void value_greater(const void *cpv_first, const void *cpv_second, void *pv_outpu
 
 void test_vector()
 {
+    printf("\ntest_vector() begin-------------------------\n");
     // 创建,初始化
     vector_t *vec = create_vector(int);
     vector_init(vec);
@@ -52,4 +53,5 @@ void test_vector()
 
     // 释放
     vector_destroy(vec);
+    printf("\ntest_vector() finish-------------------------\n");
 }

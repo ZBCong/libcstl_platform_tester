@@ -8,7 +8,8 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 INCLUDEPATH += ../../3rdparty/libcstl-2.3.0 \
-    ../../src
+    ../../src \
+    ../../3rdparty/CUnit-2.1-3/CUnit/Headers
 
 SOURCES += main.cpp \
     ../../3rdparty/libcstl-2.3.0/src/cstl_algo_mutating.c \
@@ -109,7 +110,8 @@ SOURCES += main.cpp \
     ../../3rdparty/libcstl-2.3.0/src/cstl_vector_iterator.c \
     ../../3rdparty/libcstl-2.3.0/src/cstl_vector_private.c \
     ../../src/test_vector.c \
-    ../../src/c_entry.c
+    ../../src/c_entry.c \
+    ../../src/test_list.c
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
