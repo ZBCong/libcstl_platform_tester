@@ -245,6 +245,7 @@
     <ClCompile Include="..\..\3rdparty\libcstl-2.3.0\src\cstl_vector_iterator.c" />
     <ClCompile Include="..\..\3rdparty\libcstl-2.3.0\src\cstl_vector_private.c" />
     <ClCompile Include="..\..\src\c_entry.c" />
+    <ClCompile Include="..\..\src\test_list.c" />
     <ClCompile Include="..\..\src\test_vector.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

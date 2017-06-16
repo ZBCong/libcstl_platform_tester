@@ -321,6 +321,9 @@
     <ClCompile Include="..\..\src\test_vector.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\test_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\src\cstl_algo_mutating_aux.h">
