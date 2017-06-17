@@ -19,6 +19,9 @@
     <Filter Include="3rdparty\libcstl-2.3.0\src">
       <UniqueIdentifier>{c62686de-19a0-4c19-83cc-191296401b98}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3rdparty\libcstl-2.3.0\cstl">
+      <UniqueIdentifier>{2904a467-5682-4352-9d99-d048855982eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -404,5 +407,286 @@
     <ClInclude Include="..\..\src\c_entry.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\calgorithm.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cdeque.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cfunctional.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\chash_map.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\chash_set.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\citerator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\clist.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cmap.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cnumeric.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cqueue.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cset.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cslist.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstack.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_algo_mutating.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_algo_mutating_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_algo_nonmutating.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_algo_nonmutating_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_algo_sorting.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_algo_sorting_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_alloc.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_avl_tree.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_avl_tree_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_avl_tree_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_basic_string.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_basic_string_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_basic_string_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_def.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_deque.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_deque_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_deque_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_function.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_function_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_map.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_map_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_map_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_multimap.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_multimap_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_multimap_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_multiset.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_multiset_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_multiset_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_set.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_set_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hash_set_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hashtable.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hashtable_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_hashtable_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_heap.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_iterator_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_list.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_list_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_list_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_map.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_map_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_map_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_multimap.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_multimap_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_multimap_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_multiset.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_multiset_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_multiset_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_numeric.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_numeric_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_pair.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_pair_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_priority_queue.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_priority_queue_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_queue.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_queue_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_rb_tree.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_rb_tree_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_rb_tree_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_set.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_set_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_set_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_slist.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_slist_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_slist_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_stack.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_stack_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_string.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_string_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_string_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_types.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_vector.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_vector_iterator.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstl_vector_private.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cstring.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cutility.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\libcstl-2.3.0\cstl\cvector.h">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\3rdparty\libcstl-2.3.0\cstl\Makefile.am">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </None>
+    <None Include="..\..\3rdparty\libcstl-2.3.0\cstl\Makefile.in">
+      <Filter>3rdparty\libcstl-2.3.0\cstl</Filter>
+    </None>
   </ItemGroup>
 </Project>
