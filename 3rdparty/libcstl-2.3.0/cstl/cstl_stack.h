@@ -36,7 +36,11 @@ extern "C" {
  * @return stack adaptor pointer, if create stack successfully, else return NULL.
  * @remarks type name must be c builtin type, libcstl builtin type or user defined type, otherwise creation will be failure.
  */
+#ifndef TONADO_2_2_1
 #define create_stack(...) _create_stack(#__VA_ARGS__) 
+#else
+#define create_stack(__VA_ARGS__...) _create_stack(#__VA_ARGS__) 
+#endif
 
 /**
  * Add specificed element at the top of stack. 

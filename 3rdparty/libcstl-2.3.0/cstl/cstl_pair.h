@@ -37,7 +37,11 @@ extern "C" {
  * @remarks element type name should be C builtin type name, libcstl builtin typename or registed user defined type name,
  *          otherwise the function will return NULL.
  */
+#ifndef TONADO_2_2_1
 #define create_pair(...) _create_pair(#__VA_ARGS__)
+#else
+#define create_pair(__VA_ARGS__...) _create_pair(#__VA_ARGS__)
+#endif
 
 /**
  * Initialize pair container with sepcifical element.

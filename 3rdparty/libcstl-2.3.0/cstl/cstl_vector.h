@@ -36,7 +36,11 @@ extern "C" {
  * @return return vector pointer, if create vector container successfully, otherwise return NULL.
  * @remarks the format of specificed element type reference <<The libcstl Library Reference Manual>> Chapter 8.
  */
+#ifndef TONADO_2_2_1
 #define create_vector(...) _create_vector(#__VA_ARGS__) 
+#else
+#define create_vector(__VA_ARGS__...) _create_vector(#__VA_ARGS__) 
+#endif
 
 /**
  * Initialize vector container with mutiple specificed element.

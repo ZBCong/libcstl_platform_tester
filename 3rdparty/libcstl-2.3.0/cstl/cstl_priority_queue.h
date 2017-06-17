@@ -36,7 +36,11 @@ extern "C" {
  * @remarks if s_typename == NULL, the behavior is undefined. s_typename must be c builtin type, libcstl builtin type or
  *          user defined type, otherwise creation will be failure.
  */
+#ifndef TONADO_2_2_1
 #define create_priority_queue(...) _create_priority_queue(#__VA_ARGS__)
+#else
+#define create_priority_queue(__VA_ARGS__...) _create_priority_queue(#__VA_ARGS__)
+#endif
 
 /**
  * Add specificed element at the back of priority queue. 
