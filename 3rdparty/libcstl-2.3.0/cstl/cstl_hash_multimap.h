@@ -37,11 +37,19 @@ extern "C" {
  * @remarks element type name should be C builtin type name, libcstl builtin typename or registed user defined type name,
  *          otherwise the function will return NULL.
  */
-#ifndef TONADO_2_2_1
-#define create_hash_multimap(...) _create_hash_multimap(#__VA_ARGS__)
-#else
+#if _MSC_VER<=1200
+#if _MSC_VER==1200
+/* VC6 defines here */
+#define create_hash_multimap(x,y) _create_hash_multimap(#x ## "," ## #y)
+#else /* _MSC_VER==1200 */
+/* tonado defines heres */
 #define create_hash_multimap(__VA_ARGS__...) _create_hash_multimap(#__VA_ARGS__)
-#endif
+#endif /* _MSC_VER==1200 */
+#else /* _MSC_VER<=1200 */
+/* newest compiler defines here */
+#define create_hash_multimap(...) _create_hash_multimap(#__VA_ARGS__)
+#endif /* _MSC_VER<=1200 */
+
 /**
  * Find specific element.
  * @param cphmmap_map    hash_multimap container.

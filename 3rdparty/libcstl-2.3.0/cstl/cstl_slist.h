@@ -36,11 +36,19 @@ extern "C" {
  * @return slist container pointer, if create slist successfully, else return NULL.
  * @remarks type name must be c builtin type, libcstl builtin type or user defined type, otherwise creation will be failure.
  */
-#ifndef TONADO_2_2_1
-#define create_slist(...) _create_slist(#__VA_ARGS__)
-#else
+#if _MSC_VER<=1200
+#if _MSC_VER==1200
+/* VC6 defines here */
+#define create_slist(T) _create_slist(#T)
+#else /* _MSC_VER==1200 */
+/* tonado defines heres */
 #define create_slist(__VA_ARGS__...) _create_slist(#__VA_ARGS__)
-#endif
+#endif /* _MSC_VER==1200 */
+#else /* _MSC_VER<=1200 */
+/* newest compiler defines here */
+#define create_slist(...) _create_slist(#__VA_ARGS__)
+#endif /* _MSC_VER<=1200 */
+
 /**
  * Initialize slist with specified element.
  * @param pslist_slist   uninitialized slist container.

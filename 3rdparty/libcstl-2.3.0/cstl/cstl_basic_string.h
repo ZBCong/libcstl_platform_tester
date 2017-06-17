@@ -37,12 +37,22 @@ extern "C" {
  * @remarks type name should be C builtin type name, libcstl builtin typename or registed user defined type name,
  *          otherwise the function will return NULL.
  */
-#ifndef TONADO_2_2_1
-#define create_basic_string(...) _create_basic_string(#__VA_ARGS__)
-#else
+#if _MSC_VER<=1200
+#if _MSC_VER==1200
+/* VC6 defines here */
+#define create_basic_string(T) _create_basic_string(#T)
+#else /* _MSC_VER==1200 */
+/* tonado defines heres */
 #define create_basic_string(__VA_ARGS__...) _create_basic_string(#__VA_ARGS__)
-#endif
-/**
+#endif /* _MSC_VER==1200 */
+#else /* _MSC_VER<=1200 */
+/* newest compiler defines here */
+#define create_basic_string(...) _create_basic_string(#__VA_ARGS__)
+#endif /* _MSC_VER<=1200 */
+
+ 
+ 
+ /**
  * Initialize basic_string with specified element.
  * @param pt_basic_string   uninitialized basic_string container.
  * @param t_count           element number.

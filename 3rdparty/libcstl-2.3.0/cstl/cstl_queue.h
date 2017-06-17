@@ -36,11 +36,17 @@ extern "C" {
  * @return queue adaptor pointer, if create queue successfully, else return NULL.
  * @remarks type name must be c builtin type, libcstl builtin type or user defined type, otherwise creation will be failure.
  */
-#ifndef TONADO_2_2_1
-#define create_queue(...) _create_queue(#__VA_ARGS__) 
-#else
+#if _MSC_VER<=1200
+#if _MSC_VER==1200
+/* VC6 defines here */
+#define create_queue(T) _create_queue(#T)
+#else /* _MSC_VER==1200 */
 #define create_queue(__VA_ARGS__...) _create_queue(#__VA_ARGS__) 
-#endif
+#endif /* _MSC_VER==1200 */
+#else /* _MSC_VER<=1200 */
+/* newest compiler defines here */
+#define create_queue(...) _create_queue(#__VA_ARGS__) 
+#endif /* _MSC_VER<=1200 */
 
 /**
  * Add specificed element at the back of queue. 

@@ -3,4 +3,5 @@ Debug
 libcstl_platform_tester.VC.db
 *.suo
 *.opendb
-SIMNTgnu
+/platforms/tornado2.2.1/SIMNTgnu
+/platforms/vc6/libcstl_platform_tester.ncb
