@@ -2,6 +2,7 @@
 
 void c_entry()
 {
+    test_map();
     test_vector();
     test_list();
 }
